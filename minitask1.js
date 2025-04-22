@@ -16,7 +16,7 @@ const listMusic = [
 ];
 async function createFile(fileName) {
   try {
-    const content = "hello! \n"; // membuat baris kebawah
+    const content = "";
     await fs.writeFile(fileName, content);
     console.log("write file success");
     return true;
